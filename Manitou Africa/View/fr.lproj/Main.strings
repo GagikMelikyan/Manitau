@@ -1,0 +1,69 @@
+
+/* Class = "UITextField"; placeholder = "Mot de passe"; ObjectID = "03c-j6-XL8"; */
+"03c-j6-XL8.placeholder" = "Mot de passe";
+
+/* Class = "UILabel"; text = "Par Christian Martin - France"; ObjectID = "2Nb-gq-XhD"; */
+"2Nb-gq-XhD.text" = "Par Christian Martin - France";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3VD-0T-HT7"; */
+"3VD-0T-HT7.text" = "Label";
+
+/* Class = "UILabel"; text = "Manitou equipment delights event\nprofessionals with its versatility. The organisation of an event has a considerable time constraint and the availability of equipment is essential. Safety is also a very important aspect and our machines guarantee it."; ObjectID = "3v3-2A-E4k"; */
+"3v3-2A-E4k.text" = "Manitou equipment delights event\nprofessionals with its versatility. The organisation of an event has a considerable time constraint and the availability of equipment is essential. Safety is also a very important aspect and our machines guarantee it.";
+
+/* Class = "UITabBarItem"; title = "Rechercher"; ObjectID = "5Al-UW-5pH"; */
+"5Al-UW-5pH.title" = "Rechercher";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "7ZJ-tU-eYB"; */
+"7ZJ-tU-eYB.text" = "Title";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "AC5-KX-3La"; */
+"AC5-KX-3La.text" = "Text";
+
+/* Class = "UILabel"; text = "Publié le 23/11/2018 à 15h45"; ObjectID = "FHs-AB-XIj"; */
+"FHs-AB-XIj.text" = "Publié le 23/11/2018 à 15h45";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "Gbk-9z-SVw"; */
+"Gbk-9z-SVw.text" = "Author";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O6P-aI-tSS"; */
+"O6P-aI-tSS.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Qun-Fr-Uyb"; */
+"Qun-Fr-Uyb.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Se connecter"; ObjectID = "Zxj-fN-8f7"; */
+"Zxj-fN-8f7.normalTitle" = "Se connecter";
+
+/* Class = "UIButton"; normalTitle = "Réinitialiser mon mot de passe"; ObjectID = "cSO-W1-dHm"; */
+"cSO-W1-dHm.normalTitle" = "Réinitialiser mon mot de passe";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "dfl-nZ-RSG"; */
+"dfl-nZ-RSG.text" = "Text";
+
+/* Class = "UILabel"; text = "Events"; ObjectID = "gxQ-80-Chv"; */
+"gxQ-80-Chv.text" = "Events";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "i9L-Ch-Q1y"; */
+"i9L-Ch-Q1y.text" = "Author";
+
+/* Class = "UITextField"; placeholder = "Adresse e-mail"; ObjectID = "k1v-kQ-RsO"; */
+"k1v-kQ-RsO.placeholder" = "Adresse e-mail";
+
+/* Class = "UIButton"; normalTitle = "Mot de passe auiblé?"; ObjectID = "r8u-zS-9Sm"; */
+"r8u-zS-9Sm.normalTitle" = "Mot de passe auiblé?";
+
+/* Class = "UILabel"; text = "Saisissez votre adresse email puis validez. Vous recevrez dans quelques instants par email un lien réinitialiser votre mot de passe."; ObjectID = "sPx-UP-1Fn"; */
+"sPx-UP-1Fn.text" = "Saisissez votre adresse email puis validez. Vous recevrez dans quelques instants par email un lien réinitialiser votre mot de passe.";
+
+/* Class = "UITextField"; placeholder = "Adresse e-mail"; ObjectID = "vds-Bb-OGi"; */
+"vds-Bb-OGi.placeholder" = "Adresse e-mail";
+
+/* Class = "UITabBarItem"; title = "Commenter"; ObjectID = "vj0-3J-B3H"; */
+"vj0-3J-B3H.title" = "Commenter";
+
+/* Class = "UITabBarItem"; title = "Taille"; ObjectID = "wZN-rj-EgR"; */
+"wZN-rj-EgR.title" = "Taille";
+
+/* Class = "UIButton"; normalTitle = "Add an illustration image"; ObjectID = "FoL-z0-KxW"; */
+"FoL-z0-KxW.normalTitle" = "Ajouter une image d'illustration";

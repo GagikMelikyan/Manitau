@@ -1,0 +1,109 @@
+/* 
+  Localizable.strings
+  Manitou Africa
+
+  Created by Ruzanna Sedrakyan on 2/13/19.
+  Copyright © 2019 Ruzanna Sedrakyan. All rights reserved.
+*/
+
+
+"email" = "Adresse e-mail";
+"password" = "Mot de passe";
+"flagText" = "FR";
+"button" = "French";
+"flagImageName" = "Flag_-_FR";
+"loginButton" = "Se connecter";
+"resetPasswordButton" = "Mot de passe oublié ?";
+"resetPassword" = "Réinitialiser mon mot de passe";
+"firstWarningText" = "Saisissez votre adresse e-mail puis validez.";
+"secondWarningText" = "Vous recevrez dans quelques instants par e-mail!";
+"thirdWarningLabel" = "un lien pour réinitialiser votre mot de passe.";
+"alertTitle" = "Accès membre";
+"alertMessage" = "Vos identifiants sont incorrects.";
+"headlines" = "A la une";
+"news" = "Accueil";
+"ranking" = "Classement";
+"results" = "Résultats";
+"salesHistory" = "Historique";
+"marketing" = "Marketing";
+"copyright" = "Règlement";
+"contact" = "Contact";
+"logout" = "Déconnexion";
+"articles" = "Articles";
+"mmb" = "MMB";
+"reduce" = "Reduce";
+"specs" = "Specs";
+"RANKING" = "CLASSEMENT";
+"myPosition" = "Ma position";
+"classementSecondSubtitle" = "Classement Challenge Sales Africa 2019";
+"RESULTS" = "RESULTATS";
+"SalesHISTORY" = "HISTORIQUE";
+"mySales2019" = "Mes ventes 2019";
+"mySales2018" = "Mes ventes 2018";
+"myPoints" = "Mes points";
+"linkForReglement" = "https://salesafrica.data-gest.fr/documents/sales-africa-2019-conditions-fr.pdf";
+"marketingOperationTarget" = "Objectif action marketing";
+"resultsFirstRowTitle" = "Action trimestrielle Sales Area Manager";
+"resultsSecondRowTitle" = "Promotion locale";
+"resultsThirdRowTitle" = "Mise en place de la charte graphique";
+"productsPromotionTarget" = "Objectif promotion des gammes";
+"salesRevenueTarget" = "Objectif C.A. machines";
+"Language" = "fr";
+"publishedOn" = "Publié le";
+"by" = "Par";
+"date" = "dd/MM/yyyy";
+"agreeButton" = "Accepter et continuer";
+"rejectButton" = "Je refuse Les Conditions Générales d'Utilisation";
+"termsButton" = "Les Conditions Générales d'Utilisation";
+"welcomeLabel" = "Bienvenue sur";
+"termsLabel" = "Cliquer sur \"Accepter et continuer\" pour valider";
+"linkForTermsAndConditions" = "https://api.challengeafrica-manitou.com/documents/sales-africa-2019-conditions-fr.pdf";
+"dateFormat" = "dd/MM/yyyy";
+"on" = "Le";
+
+"ResetPasswordAlertTitle" = "Accès email";
+"ResetPasswordAlertMessage" = "Les détails de votre courriel sont incorrects.";
+"SendEmailAlertTitle" = "Email du membre";
+"SendEmailAlertMessage" = "Les détails de votre courriel sont incorrects.";
+"SendMessageAlertTitle" = "Valider le message";
+"SendMessageAlertMessage" = "Le message est vide";
+
+"SendTitle" = "Envoyer";
+
+"accountEmail" = "E-mail";
+"accountPass" = "Mot de passe";
+"accountGender" = "Civilité";
+"accountFirstName" = "Prénom";
+"accountLastName" = "Nom";
+"Phone" = "Téléphone";
+"accountCompany" = "Société";
+"accountAddress" = "Adresse";
+"accountPostCode" = "Code postal";
+"accountArea" = "Zone";
+"accountCountry" = "Pays";
+"subscribe" = "Inscription à la newsletter";
+"saveButton" = "Enregistrer";
+"postResponseSuccess" = "Votre article a été créé.";
+
+"small" = "Petite";
+"normal" = "Normale";
+"large" = "Grande";
+"chooseSize" = "Choisissez une taille";
+
+"ValidationsEmailAlertTitle" = "Erreur de validation du courrier électronique";
+"ValidationsEmailAlertMessage" = "Votre adresse email est invalide.";
+
+"title" = "TITRE";
+"comment" = "Commentaire";
+"post" = "Poster";
+"writeComment" = "Écrire un commentaire";
+"comments" = "commentaires";
+
+"Contact" = "CONTACT";
+"sendUsAMessage" = "Envoyez nous un message";
+"name" = "Nom";
+"message" = "Message";
+"messageTextPlacholder" = "Écrire votre message ici";
+"addPostimageBtn" = "Ajouter une image d'illustration";
+"searchResultsFor" = "Résultats de la recherche pour ";
+"doesntFound" = "Aucun résultat trouvé pour ";

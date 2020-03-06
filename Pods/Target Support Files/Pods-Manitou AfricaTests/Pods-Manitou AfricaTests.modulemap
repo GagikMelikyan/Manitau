@@ -1,0 +1,6 @@
+framework module Pods_Manitou_AfricaTests {
+  umbrella header "Pods-Manitou AfricaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

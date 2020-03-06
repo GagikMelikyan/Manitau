@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051587B61AE7E9DA4A1417830AFC3361 /* BasicTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B78982EC0DF04C43C23ADB060681E /* BasicTransitionAnimator.swift */; };
+		1954A2A9725A8CA17594155D80EDAA8E /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9D65DA86ECB044F15CF012B771C2D /* Segue.swift */; };
+		2392DE9F058CA4FE1072FB5810105B10 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15889F57CBB043D96D9CDFBE08647744 /* Preferences.swift */; };
+		28E9D78C7D46001301D97FD24D265489 /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3333A74A4642F0D7DF2D1326CEDEEB /* UIView+Container.swift */; };
+		389E6E594BD923DBC1D7F02C74AB4492 /* Pods-Manitou AfricaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0B4C1C9CA9E2A920DCB60B16880B67 /* Pods-Manitou AfricaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3B20CB77A798365CD3F149F661AC8A /* Pods-Manitou Africa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5967F50ADD5653F8C7B7F022CE196CD /* Pods-Manitou Africa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E57473A3C5977453EFE8D2F5CA734C /* Pods-Manitou AfricaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFDFF9F9775B0C6236A1BC4079272A0 /* Pods-Manitou AfricaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F634FDCBA46ED3B3AD8CD8C60B8D92 /* SideMenuSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F28287C95C7F3820E62EA67AF1362 /* SideMenuSwift-dummy.m */; };
+		61C961713DCC7AE00103D357F7A330A1 /* Pods-Manitou AfricaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6866EF46C85D1BA23AA63F39BE985EA /* Pods-Manitou AfricaTests-dummy.m */; };
+		6A9F8B3C0E284DA10CA4CE0834A170F5 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2D58B8D3711CE9D18B972514F041A /* SideMenuController.swift */; };
+		6BDECA3E827D9848629DEAFB17379734 /* TransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84EDF04E5800C0606A67557A00C087D /* TransitionContext.swift */; };
+		882152C469B0A5CBD2C127F93415E362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8F6143E35D6B932DF1D21F03646851B6 /* UIViewController+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D259C44A4DE0E1B5AEE4278F9B9A2C /* UIViewController+Container.swift */; };
+		9DF3EBD8D01432F9E11051757A39CFEE /* Pods-Manitou Africa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B06BCC2609B2211291AD149FBD646D69 /* Pods-Manitou Africa-dummy.m */; };
+		B3424DD51619A982B75D6BA0D5F75579 /* SideMenuSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BD2842B09FE2DA0D0FB7294BE61DE1 /* SideMenuSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45DF23D4DB7A40526BE890C314B7E37 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D636F86B2D355F619092E6BE61A29B /* StatusBar.swift */; };
+		BF095D52AE272FCE4779090BE1588FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C4A4DEC974B0A605BB1743DAC9E10017 /* UIViewController+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29130089611D1CE5BC0DF967F3DDEC /* UIViewController+SideMenu.swift */; };
+		DA83C23BCCA4F8958292F5765A01A62C /* Pods-Manitou AfricaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAABEAD2B8D2EDEB785D4CA05439EA4 /* Pods-Manitou AfricaUITests-dummy.m */; };
+		E7B50043829D5168004E3E1A143F5C8C /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13549AFF5B2F1C191040C47DE74083 /* Delegate.swift */; };
+		F15F1E816E90E1490A7B599FB3AB9E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FA783AB3D0899FB612739141DBABA9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FD9D42FD854839DBB90609920283CA3F /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8B9F2E94B264A14A0963E80DF8129F /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8542F87667B48106CACD329299D0BBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF7A4466F9D8D6C11020CEA8AA8B1B4;
+			remoteInfo = "Pods-Manitou Africa";
+		};
+		8CF386B76C4038EA28C0AB72D0705E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF7A4466F9D8D6C11020CEA8AA8B1B4;
+			remoteInfo = "Pods-Manitou Africa";
+		};
+		D1C25E17FB2558A06677FB7BFE602E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0AD3D6CF60F050967E6FDEC1D949A9F;
+			remoteInfo = SideMenuSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D636F86B2D355F619092E6BE61A29B /* StatusBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBar.swift; path = SideMenu/StatusBar.swift; sourceTree = "<group>"; };
+		0215E82FC70D489CC94240A4EEF686A3 /* SideMenuSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenuSwift-Info.plist"; sourceTree = "<group>"; };
+		0A8B9F2E94B264A14A0963E80DF8129F /* SideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SideMenu.h; path = SideMenu/SideMenu.h; sourceTree = "<group>"; };
+		15079319F8FBF8EEE68617F2841D2F8A /* SideMenuSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuSwift.xcconfig; sourceTree = "<group>"; };
+		15889F57CBB043D96D9CDFBE08647744 /* Preferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = SideMenu/Preferences.swift; sourceTree = "<group>"; };
+		17554878A6BE57E00E604383F683E3F7 /* Pods-Manitou AfricaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou AfricaTests-Info.plist"; sourceTree = "<group>"; };
+		19743CC6C0EA4588DE235CE11AC7AF0E /* Pods-Manitou Africa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou Africa.release.xcconfig"; sourceTree = "<group>"; };
+		1CAABEAD2B8D2EDEB785D4CA05439EA4 /* Pods-Manitou AfricaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Manitou AfricaUITests-dummy.m"; sourceTree = "<group>"; };
+		1D0B4C1C9CA9E2A920DCB60B16880B67 /* Pods-Manitou AfricaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Manitou AfricaUITests-umbrella.h"; sourceTree = "<group>"; };
+		1DFDFF9F9775B0C6236A1BC4079272A0 /* Pods-Manitou AfricaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Manitou AfricaTests-umbrella.h"; sourceTree = "<group>"; };
+		23D9D65DA86ECB044F15CF012B771C2D /* Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segue.swift; path = SideMenu/Segue.swift; sourceTree = "<group>"; };
+		27D88EBB8114DE73EE7698E7668D729B /* Pods-Manitou AfricaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou AfricaUITests-Info.plist"; sourceTree = "<group>"; };
+		37847BC5C1D0ED59A83D331CC840A276 /* SideMenuSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-prefix.pch"; sourceTree = "<group>"; };
+		518B78982EC0DF04C43C23ADB060681E /* BasicTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicTransitionAnimator.swift; path = SideMenu/BasicTransitionAnimator.swift; sourceTree = "<group>"; };
+		5B3333A74A4642F0D7DF2D1326CEDEEB /* UIView+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Container.swift"; path = "SideMenu/UIView+Container.swift"; sourceTree = "<group>"; };
+		5F308E47A66F79FBC395F403BBBAD6CD /* Pods-Manitou AfricaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Manitou AfricaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FA87BA80CF0645A5CA22256470F2AA6 /* SideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CF75A6D8ED62F465CED65FE2DFAFAE /* Pods-Manitou AfricaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou AfricaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6489911FC41B95F85B894FD379A9896E /* Pods-Manitou Africa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Manitou Africa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66A1BD522E3A0B56EC5D06F2AAA21E21 /* Pods-Manitou AfricaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou AfricaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E820602DFA08DDEA70FA294EDC1B044 /* Pods-Manitou Africa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou Africa.debug.xcconfig"; sourceTree = "<group>"; };
+		751E534F3107B1E0FF1FD58B2016C8A4 /* Pods-Manitou AfricaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou AfricaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E53F9868431D1FA948683625C1CA26C /* Pods_Manitou_Africa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manitou_Africa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A2D58B8D3711CE9D18B972514F041A /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = SideMenu/SideMenuController.swift; sourceTree = "<group>"; };
+		99D259C44A4DE0E1B5AEE4278F9B9A2C /* UIViewController+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Container.swift"; path = "SideMenu/UIViewController+Container.swift"; sourceTree = "<group>"; };
+		9AB8469E441D74D8DF26C6737ED37465 /* Pods-Manitou AfricaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Manitou AfricaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37F28287C95C7F3820E62EA67AF1362 /* SideMenuSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuSwift-dummy.m"; sourceTree = "<group>"; };
+		A9557858E23DD25325D0F7463C2672FF /* Pods-Manitou AfricaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Manitou AfricaUITests.modulemap"; sourceTree = "<group>"; };
+		B06BCC2609B2211291AD149FBD646D69 /* Pods-Manitou Africa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Manitou Africa-dummy.m"; sourceTree = "<group>"; };
+		B0BD2842B09FE2DA0D0FB7294BE61DE1 /* SideMenuSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-umbrella.h"; sourceTree = "<group>"; };
+		B35FBA1597E9ED8213311267289E5E85 /* Pods-Manitou AfricaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou AfricaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B41F3A1471C6E92FBCE6BE1D2B028F1A /* SideMenuSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenuSwift.modulemap; sourceTree = "<group>"; };
+		BB29130089611D1CE5BC0DF967F3DDEC /* UIViewController+SideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+SideMenu.swift"; path = "SideMenu/UIViewController+SideMenu.swift"; sourceTree = "<group>"; };
+		BC7132E1F721C2D79AD894C509740D63 /* Pods-Manitou AfricaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou AfricaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD229678B4460276B4A8C1F486F8A8B0 /* Pods-Manitou Africa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Manitou Africa.modulemap"; sourceTree = "<group>"; };
+		C6866EF46C85D1BA23AA63F39BE985EA /* Pods-Manitou AfricaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Manitou AfricaTests-dummy.m"; sourceTree = "<group>"; };
+		C84426353412D0CA1C6B2D05EC7751DD /* Pods-Manitou AfricaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manitou AfricaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6E183FF313554AD6A781EB5E48A9E12 /* Pods-Manitou AfricaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Manitou AfricaTests.modulemap"; sourceTree = "<group>"; };
+		DAFA4F85381DF7F40E560FDC2D7A59AA /* Pods_Manitou_AfricaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manitou_AfricaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF989FBB6680D48419F9BDFD4E2B7D9A /* Pods_Manitou_AfricaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manitou_AfricaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54641CED347557D312AC953A83C4017 /* Pods-Manitou Africa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou Africa-Info.plist"; sourceTree = "<group>"; };
+		E5967F50ADD5653F8C7B7F022CE196CD /* Pods-Manitou Africa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Manitou Africa-umbrella.h"; sourceTree = "<group>"; };
+		E84EDF04E5800C0606A67557A00C087D /* TransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContext.swift; path = SideMenu/TransitionContext.swift; sourceTree = "<group>"; };
+		FA13549AFF5B2F1C191040C47DE74083 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = SideMenu/Delegate.swift; sourceTree = "<group>"; };
+		FE1B809B666761132C742B4031C5D95E /* Pods-Manitou Africa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manitou Africa-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEE475ED05E5C28F33A0CDAA564AD502 /* Pods-Manitou Africa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Manitou Africa-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C31C91CC855D773A4A0B09319C68408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA783AB3D0899FB612739141DBABA9E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5D9212DF18B4E843A0871FCA70C2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15F1E816E90E1490A7B599FB3AB9E98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C45DE3C30E0B8CB4C523D580161EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF095D52AE272FCE4779090BE1588FA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC71A2D8BAA528366E29FD8593FEE9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882152C469B0A5CBD2C127F93415E362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		509FA2A4EEFA2FB7502FE01C2BE70714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE534799E6C687AE93C2B71D6E7106B0 /* SideMenuSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61A7323A4819FF496024A9995532C181 /* Pods-Manitou AfricaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9557858E23DD25325D0F7463C2672FF /* Pods-Manitou AfricaUITests.modulemap */,
+				5F308E47A66F79FBC395F403BBBAD6CD /* Pods-Manitou AfricaUITests-acknowledgements.markdown */,
+				751E534F3107B1E0FF1FD58B2016C8A4 /* Pods-Manitou AfricaUITests-acknowledgements.plist */,
+				1CAABEAD2B8D2EDEB785D4CA05439EA4 /* Pods-Manitou AfricaUITests-dummy.m */,
+				27D88EBB8114DE73EE7698E7668D729B /* Pods-Manitou AfricaUITests-Info.plist */,
+				1D0B4C1C9CA9E2A920DCB60B16880B67 /* Pods-Manitou AfricaUITests-umbrella.h */,
+				60CF75A6D8ED62F465CED65FE2DFAFAE /* Pods-Manitou AfricaUITests.debug.xcconfig */,
+				C84426353412D0CA1C6B2D05EC7751DD /* Pods-Manitou AfricaUITests.release.xcconfig */,
+			);
+			name = "Pods-Manitou AfricaUITests";
+			path = "Target Support Files/Pods-Manitou AfricaUITests";
+			sourceTree = "<group>";
+		};
+		6EDEFED98C3EDFEA4CC4F38ED8D81528 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B41F3A1471C6E92FBCE6BE1D2B028F1A /* SideMenuSwift.modulemap */,
+				15079319F8FBF8EEE68617F2841D2F8A /* SideMenuSwift.xcconfig */,
+				A37F28287C95C7F3820E62EA67AF1362 /* SideMenuSwift-dummy.m */,
+				0215E82FC70D489CC94240A4EEF686A3 /* SideMenuSwift-Info.plist */,
+				37847BC5C1D0ED59A83D331CC840A276 /* SideMenuSwift-prefix.pch */,
+				B0BD2842B09FE2DA0D0FB7294BE61DE1 /* SideMenuSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuSwift";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A1292E288B123FFFF1CA71147C752F0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53B2ABD8C2756E607D81E1F6FC16130 /* Pods-Manitou Africa */,
+				B87BF562B7748A7415D4D4EDDD4D94A7 /* Pods-Manitou AfricaTests */,
+				61A7323A4819FF496024A9995532C181 /* Pods-Manitou AfricaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A53B2ABD8C2756E607D81E1F6FC16130 /* Pods-Manitou Africa */ = {
+			isa = PBXGroup;
+			children = (
+				BD229678B4460276B4A8C1F486F8A8B0 /* Pods-Manitou Africa.modulemap */,
+				6489911FC41B95F85B894FD379A9896E /* Pods-Manitou Africa-acknowledgements.markdown */,
+				FE1B809B666761132C742B4031C5D95E /* Pods-Manitou Africa-acknowledgements.plist */,
+				B06BCC2609B2211291AD149FBD646D69 /* Pods-Manitou Africa-dummy.m */,
+				FEE475ED05E5C28F33A0CDAA564AD502 /* Pods-Manitou Africa-frameworks.sh */,
+				E54641CED347557D312AC953A83C4017 /* Pods-Manitou Africa-Info.plist */,
+				E5967F50ADD5653F8C7B7F022CE196CD /* Pods-Manitou Africa-umbrella.h */,
+				6E820602DFA08DDEA70FA294EDC1B044 /* Pods-Manitou Africa.debug.xcconfig */,
+				19743CC6C0EA4588DE235CE11AC7AF0E /* Pods-Manitou Africa.release.xcconfig */,
+			);
+			name = "Pods-Manitou Africa";
+			path = "Target Support Files/Pods-Manitou Africa";
+			sourceTree = "<group>";
+		};
+		B87BF562B7748A7415D4D4EDDD4D94A7 /* Pods-Manitou AfricaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E183FF313554AD6A781EB5E48A9E12 /* Pods-Manitou AfricaTests.modulemap */,
+				9AB8469E441D74D8DF26C6737ED37465 /* Pods-Manitou AfricaTests-acknowledgements.markdown */,
+				B35FBA1597E9ED8213311267289E5E85 /* Pods-Manitou AfricaTests-acknowledgements.plist */,
+				C6866EF46C85D1BA23AA63F39BE985EA /* Pods-Manitou AfricaTests-dummy.m */,
+				17554878A6BE57E00E604383F683E3F7 /* Pods-Manitou AfricaTests-Info.plist */,
+				1DFDFF9F9775B0C6236A1BC4079272A0 /* Pods-Manitou AfricaTests-umbrella.h */,
+				BC7132E1F721C2D79AD894C509740D63 /* Pods-Manitou AfricaTests.debug.xcconfig */,
+				66A1BD522E3A0B56EC5D06F2AAA21E21 /* Pods-Manitou AfricaTests.release.xcconfig */,
+			);
+			name = "Pods-Manitou AfricaTests";
+			path = "Target Support Files/Pods-Manitou AfricaTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				509FA2A4EEFA2FB7502FE01C2BE70714 /* Pods */,
+				DFCD19F651181BF26A9DF8B386B45674 /* Products */,
+				A1292E288B123FFFF1CA71147C752F0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCD19F651181BF26A9DF8B386B45674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E53F9868431D1FA948683625C1CA26C /* Pods_Manitou_Africa.framework */,
+				DF989FBB6680D48419F9BDFD4E2B7D9A /* Pods_Manitou_AfricaTests.framework */,
+				DAFA4F85381DF7F40E560FDC2D7A59AA /* Pods_Manitou_AfricaUITests.framework */,
+				5FA87BA80CF0645A5CA22256470F2AA6 /* SideMenuSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE534799E6C687AE93C2B71D6E7106B0 /* SideMenuSwift */ = {
+			isa = PBXGroup;
+			children = (
+				518B78982EC0DF04C43C23ADB060681E /* BasicTransitionAnimator.swift */,
+				FA13549AFF5B2F1C191040C47DE74083 /* Delegate.swift */,
+				15889F57CBB043D96D9CDFBE08647744 /* Preferences.swift */,
+				23D9D65DA86ECB044F15CF012B771C2D /* Segue.swift */,
+				0A8B9F2E94B264A14A0963E80DF8129F /* SideMenu.h */,
+				98A2D58B8D3711CE9D18B972514F041A /* SideMenuController.swift */,
+				01D636F86B2D355F619092E6BE61A29B /* StatusBar.swift */,
+				E84EDF04E5800C0606A67557A00C087D /* TransitionContext.swift */,
+				5B3333A74A4642F0D7DF2D1326CEDEEB /* UIView+Container.swift */,
+				99D259C44A4DE0E1B5AEE4278F9B9A2C /* UIViewController+Container.swift */,
+				BB29130089611D1CE5BC0DF967F3DDEC /* UIViewController+SideMenu.swift */,
+				6EDEFED98C3EDFEA4CC4F38ED8D81528 /* Support Files */,
+			);
+			path = SideMenuSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		057E861CB735B372A9A679D3FE4F6B56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9D42FD854839DBB90609920283CA3F /* SideMenu.h in Headers */,
+				B3424DD51619A982B75D6BA0D5F75579 /* SideMenuSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ADCCBB0914F6F33CFE037C528A5D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E57473A3C5977453EFE8D2F5CA734C /* Pods-Manitou AfricaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C99A8110136B75FC38477CF3135C54C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389E6E594BD923DBC1D7F02C74AB4492 /* Pods-Manitou AfricaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A790E973CB36F89E925778ACC137310F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3B20CB77A798365CD3F149F661AC8A /* Pods-Manitou Africa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E3CF91A3704C85A92CC2ECA26F2F646 /* Pods-Manitou AfricaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069C7E82CEE25146C29593C155C18EE1 /* Build configuration list for PBXNativeTarget "Pods-Manitou AfricaTests" */;
+			buildPhases = (
+				05ADCCBB0914F6F33CFE037C528A5D4C /* Headers */,
+				BCF7616191CF23A9DE895E5EE312F652 /* Sources */,
+				6B5D9212DF18B4E843A0871FCA70C2DF /* Frameworks */,
+				11CABB221F5B3165541D58273E6A3E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BADB929C9F69BC6775D4CA01654AE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Manitou AfricaTests";
+			productName = "Pods-Manitou AfricaTests";
+			productReference = DF989FBB6680D48419F9BDFD4E2B7D9A /* Pods_Manitou_AfricaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FF7A4466F9D8D6C11020CEA8AA8B1B4 /* Pods-Manitou Africa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDBFD6366FFA2FBC9C72F58BFF4B85C /* Build configuration list for PBXNativeTarget "Pods-Manitou Africa" */;
+			buildPhases = (
+				A790E973CB36F89E925778ACC137310F /* Headers */,
+				612DA950DBA12984A5967D4F16FC7A94 /* Sources */,
+				C7C45DE3C30E0B8CB4C523D580161EA9 /* Frameworks */,
+				6C1C67EE2FFCC3BD0117D41CB4661B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1F5042451A963CE0D6CDF2558D0B95 /* PBXTargetDependency */,
+			);
+			name = "Pods-Manitou Africa";
+			productName = "Pods-Manitou Africa";
+			productReference = 7E53F9868431D1FA948683625C1CA26C /* Pods_Manitou_Africa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E19FD9ECC96E1C02713F75D7BA3D931 /* Pods-Manitou AfricaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299BCE4C91A5ECB28436B3C51CFA78F9 /* Build configuration list for PBXNativeTarget "Pods-Manitou AfricaUITests" */;
+			buildPhases = (
+				1C99A8110136B75FC38477CF3135C54C /* Headers */,
+				1ACCFF3FDBB9366A6E33D711803A816C /* Sources */,
+				1C31C91CC855D773A4A0B09319C68408 /* Frameworks */,
+				22EE5BFB7C27C2C5B3F77A9E83480CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4775AFD421DEB3D29754811947E4A828 /* PBXTargetDependency */,
+			);
+			name = "Pods-Manitou AfricaUITests";
+			productName = "Pods-Manitou AfricaUITests";
+			productReference = DAFA4F85381DF7F40E560FDC2D7A59AA /* Pods_Manitou_AfricaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0AD3D6CF60F050967E6FDEC1D949A9F /* SideMenuSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF72C48569587B74B736560ACC6B3A0 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */;
+			buildPhases = (
+				057E861CB735B372A9A679D3FE4F6B56 /* Headers */,
+				2372DCACD26EA4D4B0F892B68B9BD773 /* Sources */,
+				CC71A2D8BAA528366E29FD8593FEE9BE /* Frameworks */,
+				B6E6DE2281004E5A6D078EC4BF40B48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuSwift;
+			productName = SideMenuSwift;
+			productReference = 5FA87BA80CF0645A5CA22256470F2AA6 /* SideMenuSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DFCD19F651181BF26A9DF8B386B45674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF7A4466F9D8D6C11020CEA8AA8B1B4 /* Pods-Manitou Africa */,
+				2E3CF91A3704C85A92CC2ECA26F2F646 /* Pods-Manitou AfricaTests */,
+				4E19FD9ECC96E1C02713F75D7BA3D931 /* Pods-Manitou AfricaUITests */,
+				B0AD3D6CF60F050967E6FDEC1D949A9F /* SideMenuSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11CABB221F5B3165541D58273E6A3E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EE5BFB7C27C2C5B3F77A9E83480CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1C67EE2FFCC3BD0117D41CB4661B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E6DE2281004E5A6D078EC4BF40B48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ACCFF3FDBB9366A6E33D711803A816C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA83C23BCCA4F8958292F5765A01A62C /* Pods-Manitou AfricaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2372DCACD26EA4D4B0F892B68B9BD773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051587B61AE7E9DA4A1417830AFC3361 /* BasicTransitionAnimator.swift in Sources */,
+				E7B50043829D5168004E3E1A143F5C8C /* Delegate.swift in Sources */,
+				2392DE9F058CA4FE1072FB5810105B10 /* Preferences.swift in Sources */,
+				1954A2A9725A8CA17594155D80EDAA8E /* Segue.swift in Sources */,
+				6A9F8B3C0E284DA10CA4CE0834A170F5 /* SideMenuController.swift in Sources */,
+				56F634FDCBA46ED3B3AD8CD8C60B8D92 /* SideMenuSwift-dummy.m in Sources */,
+				B45DF23D4DB7A40526BE890C314B7E37 /* StatusBar.swift in Sources */,
+				6BDECA3E827D9848629DEAFB17379734 /* TransitionContext.swift in Sources */,
+				28E9D78C7D46001301D97FD24D265489 /* UIView+Container.swift in Sources */,
+				8F6143E35D6B932DF1D21F03646851B6 /* UIViewController+Container.swift in Sources */,
+				C4A4DEC974B0A605BB1743DAC9E10017 /* UIViewController+SideMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612DA950DBA12984A5967D4F16FC7A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3EBD8D01432F9E11051757A39CFEE /* Pods-Manitou Africa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7616191CF23A9DE895E5EE312F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C961713DCC7AE00103D357F7A330A1 /* Pods-Manitou AfricaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31BADB929C9F69BC6775D4CA01654AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Manitou Africa";
+			target = 3FF7A4466F9D8D6C11020CEA8AA8B1B4 /* Pods-Manitou Africa */;
+			targetProxy = 8542F87667B48106CACD329299D0BBCE /* PBXContainerItemProxy */;
+		};
+		4775AFD421DEB3D29754811947E4A828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Manitou Africa";
+			target = 3FF7A4466F9D8D6C11020CEA8AA8B1B4 /* Pods-Manitou Africa */;
+			targetProxy = 8CF386B76C4038EA28C0AB72D0705E82 /* PBXContainerItemProxy */;
+		};
+		7A1F5042451A963CE0D6CDF2558D0B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuSwift;
+			target = B0AD3D6CF60F050967E6FDEC1D949A9F /* SideMenuSwift */;
+			targetProxy = D1C25E17FB2558A06677FB7BFE602E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15540C1372F0E50E281897C192B4F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7132E1F721C2D79AD894C509740D63 /* Pods-Manitou AfricaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou AfricaTests/Pods-Manitou AfricaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou AfricaTests/Pods-Manitou AfricaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16FD0648F06E4A022961C9516E16703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2D6BEC779122894943BFD5EE3ED7127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CF75A6D8ED62F465CED65FE2DFAFAE /* Pods-Manitou AfricaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou AfricaUITests/Pods-Manitou AfricaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou AfricaUITests/Pods-Manitou AfricaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DB13D3FAE987D20610ACD677A28C6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FD29FB80572EB9B0EEAA044A8DB1DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E820602DFA08DDEA70FA294EDC1B044 /* Pods-Manitou Africa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou Africa/Pods-Manitou Africa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou Africa/Pods-Manitou Africa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95BED5481C4728165F8B0D97FEF6B07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15079319F8FBF8EEE68617F2841D2F8A /* SideMenuSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0AB0BA495B36184D095A4C6D51BDBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84426353412D0CA1C6B2D05EC7751DD /* Pods-Manitou AfricaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou AfricaUITests/Pods-Manitou AfricaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou AfricaUITests/Pods-Manitou AfricaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB3328AE92BB7F8709572B7471ED8FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A1BD522E3A0B56EC5D06F2AAA21E21 /* Pods-Manitou AfricaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou AfricaTests/Pods-Manitou AfricaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou AfricaTests/Pods-Manitou AfricaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C225B55BD95EF71056A765EEC5E78E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15079319F8FBF8EEE68617F2841D2F8A /* SideMenuSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF186B878EE5D49E01AB4D6DE4E0CDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19743CC6C0EA4588DE235CE11AC7AF0E /* Pods-Manitou Africa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Manitou Africa/Pods-Manitou Africa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Manitou Africa/Pods-Manitou Africa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069C7E82CEE25146C29593C155C18EE1 /* Build configuration list for PBXNativeTarget "Pods-Manitou AfricaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15540C1372F0E50E281897C192B4F486 /* Debug */,
+				BB3328AE92BB7F8709572B7471ED8FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299BCE4C91A5ECB28436B3C51CFA78F9 /* Build configuration list for PBXNativeTarget "Pods-Manitou AfricaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6BEC779122894943BFD5EE3ED7127C /* Debug */,
+				B0AB0BA495B36184D095A4C6D51BDBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB13D3FAE987D20610ACD677A28C6E8 /* Debug */,
+				16FD0648F06E4A022961C9516E16703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF72C48569587B74B736560ACC6B3A0 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BED5481C4728165F8B0D97FEF6B07E /* Debug */,
+				C225B55BD95EF71056A765EEC5E78E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDBFD6366FFA2FBC9C72F58BFF4B85C /* Build configuration list for PBXNativeTarget "Pods-Manitou Africa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD29FB80572EB9B0EEAA044A8DB1DD0 /* Debug */,
+				DF186B878EE5D49E01AB4D6DE4E0CDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,106 @@
+/* 
+  Localizable.strings
+  Manitou Africa
+
+  Created by Ruzanna Sedrakyan on 2/13/19.
+  Copyright © 2019 Ruzanna Sedrakyan. All rights reserved.
+*/
+
+"email" = "Email";
+"password" = "Password";
+"flagText" = "EN";
+"button" = "English";
+"flagImageName" = "Flag_-_EN";
+"loginButton" = "Login";
+"resetPasswordButton" = "Forgot password?";
+"resetPassword" = "Reset my password";
+"firstWarningText" = "Please submit your email address.";
+"secondWarningText" = "You will then receive by email a link";
+"thirdWarningLabel" = "to reset your password.";
+"alertTitle" = "Member access";
+"alertMessage" = "Your login details are incorrect.";
+"headlines" = "Headlines";
+"news" = "Home";
+"ranking" = "Ranking";
+"results" = "Results";
+"salesHistory" = "Sales history";
+"marketing" = "Marketing supports";
+"copyright" = "Challenge rules";
+"contact" = "Contact";
+"logout" = "Log Out";
+"articles" = "Articles";
+"mmb" = "MMB";
+"reduce" = "Reduce";
+"specs" = "Specs";
+"RANKING" = "RANKING";
+"myPosition" = "My position";
+"classementSecondSubtitle" = "Challenge Sales Africa 2019 ranking";
+"RESULTS" = "RESULTS";
+"SalesHISTORY" = "SALES HISTORY";
+"mySales2019" = "My sales 2019";
+"mySales2018" = "My sales 2018";
+"myPoints" = "Performance point balance";
+"linkForReglement" = "https://salesafrica.data-gest.fr/documents/sales-africa-2019-conditions-en.pdf";
+"marketingOperationTarget" = "Marketing operation target";
+"productsPromotionTarget" = "Products promotion target";
+"salesRevenueTarget" = "Sales revenue target";
+"Language" = "en";
+"publishedOn" = "Published on";
+"by" = "By";
+"date" = "yyyy/MM/dd";
+"agreeButton" = "Agree & continue";
+"rejectButton" = "I refuse the Terms Of Use";
+"termsButton" = "The Terms Of Use";
+"welcomeLabel" = "Welcome to";
+"termsLabel" = "Tap \"Agree and continue\" to validate";
+"linkForTermsAndConditions" = "https://api.challengeafrica-manitou.com/documents/sales-africa-2019-conditions-en.pdf";
+"dateFormat" = "MM/dd/yyyy";
+"on" = "On";
+
+"ResetPasswordAlertTitle" = "Email access";
+"ResetPasswordAlertMessage" = "Your email details are incorrect.";
+"SendEmailAlertTitle" = "Member email";
+"SendEmailAlertMessage" = "Your email details are incorrect.";
+"SendMessageAlertTitle" = "Validate message";
+"SendMessageAlertMessage" = "Message is empty";
+
+"SendTitle" = "Send";
+
+"accountEmail" = "Email";
+"accountPass" = "Password";
+"accountGender" = "Gender";
+"accountFirstName" = "First name";
+"accountLastName" = "Last name";
+"Phone" = "Phone";
+"accountCompany" = "Company";
+"accountAddress" = "Address";
+"accountPostCode" = "Postal code";
+"accountArea" = "Area";
+"accountCountry" = "Country";
+"subscribe" = "Subscribe to the newsletter";
+"saveButton" = "Save";
+
+"postResponseSuccess" = "Your post was successfully created.";
+
+"small" = "Small";
+"normal" = "Normal";
+"large" = "Large";
+"chooseSize" = "Select a font size";
+
+"ValidationsEmailAlertTitle" = "Error Email Validation";
+"ValidationsEmailAlertMessage" = "Your email address is invalid.";
+
+"title" = "TITLE";
+"comment" = "Comment";
+"post" = "Post";
+"writeComment" = "Write a comment";
+"comments" = "comments";
+
+"Contact" = "CONTACT";
+"sendUsAMessage" = "Send us a message";
+"name" = "Name";
+"message" = "Message";
+"messageTextPlacholder" = "Write your message here";
+"addPostimageBtn" = "Add an illustration image";
+"searchResultsFor" = "Search Results For ";
+"doesntFound" = "No results found for ";

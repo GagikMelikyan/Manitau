@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="emailSubscribeTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="emailSubscribeTableViewCell" customModule="Manitou_Africa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="566" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="566" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CTd-5m-guR">
+                        <rect key="frame" x="15" y="13" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="AGP-Cf-8mt"/>
+                            <constraint firstAttribute="width" constant="20" id="hJe-Nu-LMs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFk-BD-3td">
+                        <rect key="frame" x="45" y="15" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kI5-mh-dm0">
+                        <rect key="frame" x="507" y="7.5" width="51" height="31"/>
+                        <color key="onTintColor" red="0.19916138052940369" green="0.66162121295928955" blue="0.63089865446090698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kI5-mh-dm0" firstAttribute="centerY" secondItem="CTd-5m-guR" secondAttribute="centerY" id="IhN-v7-qo4"/>
+                    <constraint firstAttribute="bottom" secondItem="CTd-5m-guR" secondAttribute="bottom" constant="10.5" id="KMu-Gk-ULR"/>
+                    <constraint firstItem="iFk-BD-3td" firstAttribute="bottom" secondItem="CTd-5m-guR" secondAttribute="bottom" id="NDR-lo-JFu"/>
+                    <constraint firstItem="CTd-5m-guR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PUt-nF-RF4"/>
+                    <constraint firstItem="kI5-mh-dm0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iFk-BD-3td" secondAttribute="trailing" constant="10" id="aT8-JB-hVq"/>
+                    <constraint firstAttribute="trailing" secondItem="kI5-mh-dm0" secondAttribute="trailing" constant="10" id="aXa-Ds-k19"/>
+                    <constraint firstItem="iFk-BD-3td" firstAttribute="leading" secondItem="CTd-5m-guR" secondAttribute="trailing" constant="10" id="qLr-8T-aEp"/>
+                    <constraint firstItem="CTd-5m-guR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="z1n-d6-Idf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellSwitch" destination="kI5-mh-dm0" id="M2Y-Pz-LbI"/>
+                <outlet property="cellTitle" destination="iFk-BD-3td" id="d1G-L3-zeF"/>
+                <outlet property="icon" destination="CTd-5m-guR" id="wAi-Eb-W9U"/>
+            </connections>
+            <point key="canvasLocation" x="292.75362318840581" y="146.65178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

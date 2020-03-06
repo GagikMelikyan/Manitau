@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SearchView" id="iN0-l3-epB" customClass="SearchView" customModule="Manitou_Africa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="692" height="318"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izj-k6-er6">
+                    <rect key="frame" x="287" y="54" width="118.5" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Searching text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z0G-zK-0Yc">
+                    <rect key="frame" x="69" y="90.5" width="554" height="30"/>
+                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7g-HD-N0e">
+                    <rect key="frame" x="287.5" y="233" width="117" height="41"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="18"/>
+                    <inset key="contentEdgeInsets" minX="30" minY="10" maxX="30" maxY="10"/>
+                    <state key="normal" title="Search">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="searchNews" destination="iN0-l3-epB" eventType="touchUpInside" id="IZV-I0-kFM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcj-zR-W2P" customClass="sea">
+                    <rect key="frame" x="69" y="120.5" width="554" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="b00-AI-egm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.047033361486486486" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+            <constraints>
+                <constraint firstItem="Izj-k6-er6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="3VI-rW-PZ1"/>
+                <constraint firstItem="Z0G-zK-0Yc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="5sD-nw-QPi"/>
+                <constraint firstItem="Z0G-zK-0Yc" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="LA0-7p-uLL"/>
+                <constraint firstItem="A7g-HD-N0e" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="VIG-5j-wRI"/>
+                <constraint firstItem="Izj-k6-er6" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="a2Y-Ie-H5U"/>
+                <constraint firstItem="fcj-zR-W2P" firstAttribute="width" secondItem="Z0G-zK-0Yc" secondAttribute="width" id="b1F-a6-g9m"/>
+                <constraint firstItem="A7g-HD-N0e" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fcj-zR-W2P" secondAttribute="bottom" constant="8" id="g1t-Zx-otU"/>
+                <constraint firstItem="Z0G-zK-0Yc" firstAttribute="top" secondItem="Izj-k6-er6" secondAttribute="bottom" constant="13" id="h3a-es-kU5"/>
+                <constraint firstItem="fcj-zR-W2P" firstAttribute="top" secondItem="Z0G-zK-0Yc" secondAttribute="bottom" id="kJJ-md-PgQ"/>
+                <constraint firstItem="fcj-zR-W2P" firstAttribute="centerX" secondItem="Z0G-zK-0Yc" secondAttribute="centerX" id="mhU-uW-lx0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="A7g-HD-N0e" secondAttribute="bottom" constant="10" id="vlZ-yJ-QWX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="doesntFoundLabel" destination="fcj-zR-W2P" id="ScE-GT-kjv"/>
+                <outlet property="searchButton" destination="A7g-HD-N0e" id="Tlk-dO-h2M"/>
+                <outlet property="searchTextField" destination="Z0G-zK-0Yc" id="jO6-10-RHy"/>
+                <outlet property="searchViewTitle" destination="Izj-k6-er6" id="9ka-yd-l1S"/>
+            </connections>
+            <point key="canvasLocation" x="42.028985507246382" y="124.55357142857142"/>
+        </view>
+    </objects>
+</document>
